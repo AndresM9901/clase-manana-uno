@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class BotonesView extends StatelessWidget {
   const BotonesView({super.key});
+  static const String title = 'botones_view';
 
   @override
   Widget build(BuildContext context) {
@@ -10,6 +12,14 @@ class BotonesView extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            ElevatedButton(
+              onPressed: (){
+                context.pop();
+              },
+              child: const Text(
+                'Atras',
+              )
+            ),
             const Text(
               'Botones',
               style: TextStyle(

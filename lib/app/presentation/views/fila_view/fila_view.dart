@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class FilaView extends StatelessWidget {
   const FilaView({super.key});
+  static const String title = 'fila_view';
 
   @override
   Widget build(BuildContext context) {

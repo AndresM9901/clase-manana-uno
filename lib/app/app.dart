@@ -1,6 +1,5 @@
-import 'package:clase_manana_uno/app/presentation/views/iconos_view/iconos_view.dart';
-import 'package:clase_manana_uno/app/presentation/views/views_links.dart';
 import 'package:flutter/material.dart';
+import 'config/routes/app_router.dart';
 
 
 class App extends StatelessWidget {
@@ -8,9 +7,12 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: BotonesView(),
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        useMaterial3: true,
+      ),
+      routerConfig: appRouter,
     );
   }
 }
