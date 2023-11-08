@@ -1,0 +1,9 @@
+export 'package:clase_manana_uno/app/presentation/views/fila_view/fila_view.dart';
+export 'package:clase_manana_uno/app/presentation/views/columna_view/columna_view.dart';
+export 'package:clase_manana_uno/app/presentation/views/home/home_view.dart';
+export 'package:clase_manana_uno/app/presentation/views/icon_view/icon_view.dart';
+export 'package:clase_manana_uno/app/presentation/views/text_view/text_view.dart';
+export 'package:clase_manana_uno/app/presentation/views/menu_view/menu_view.dart';
+export 'package:clase_manana_uno/app/presentation/views/imagen_view/imagen_view.dart';
+export 'package:clase_manana_uno/app/presentation/views/botones_view/botones_view.dart';
+export 'package:clase_manana_uno/app/presentation/views/iconos_view/iconos_view.dart';
