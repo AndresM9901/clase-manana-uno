@@ -12,8 +12,8 @@ class TextoView extends StatelessWidget {
                 children: [
                   Expanded(
                       child: Image(
-                    image: NetworkImage(
-                        'https://hips.hearstapps.com/hmg-prod/images/koenigsegg-agera-rsn-1-1592047681.jpg?crop=1xw:1xh;center,top&resize=1200:*'),
+                        image: NetworkImage(
+                          'https://hips.hearstapps.com/hmg-prod/images/koenigsegg-agera-rsn-1-1592047681.jpg?crop=1xw:1xh;center,top&resize=1200:*'),
                   )),
                   Expanded(
                     child: Text(
@@ -22,8 +22,11 @@ class TextoView extends StatelessWidget {
                   ),
                   Expanded(
                       child: Image(
-                          image: NetworkImage(
-                              'https://hips.hearstapps.com/hmg-prod/images/koenigsegg-agera-rsn-1-1592047681.jpg?crop=1xw:1xh;center,top&resize=1200:*'))),
+                        image: NetworkImage(
+                          'https://hips.hearstapps.com/hmg-prod/images/koenigsegg-agera-rsn-1-1592047681.jpg?crop=1xw:1xh;center,top&resize=1200:*'
+                        )
+                      )
+                  ),
                 ],
               ),
               Row(
@@ -37,7 +40,8 @@ class TextoView extends StatelessWidget {
                   ),
                   Expanded(
                     child: Image(
-                      image: NetworkImage('https://hips.hearstapps.com/hmg-prod/images/koenigsegg-agera-rsn-1-1592047681.jpg?crop=1xw:1xh;center,top&resize=1200:*'))
+                      image: NetworkImage('https://hips.hearstapps.com/hmg-prod/images/koenigsegg-agera-rsn-1-1592047681.jpg?crop=1xw:1xh;center,top&resize=1200:*')
+                    )
                   ),
                 ]
               ),
