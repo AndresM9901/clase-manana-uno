@@ -34,7 +34,19 @@ class IconosView extends StatelessWidget {
                   )
                 ),
               ]
-            )
+            ),
+            SizedBox(
+              height: 30.0,
+            ),
+            Image(
+              image: AssetImage('assets/images/agerar.jpg')
+            ),
+            SizedBox(
+              height: 30.0,
+            ),
+            Image(
+              image: NetworkImage('https://img.remediosdigitales.com/29438e/ford-mustang-shelby-gt500-mexico_/840_560.jpg')
+            ),
           ],
         ),
       )
