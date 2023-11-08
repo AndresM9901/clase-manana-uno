@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+import '../views_links.dart';
+
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
   static const String title = 'home_view';
@@ -43,7 +45,21 @@ class HomeView extends StatelessWidget {
               child: const Text(
                 'Imagen view',
               )
-            )
+            ),
+            IconButton(
+              onPressed: (){
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const IconView()
+                  )
+                );
+              },
+              icon: Container(
+                padding: const EdgeInsets.all(0),
+                height: 60,
+                child: Image.asset('assets/icons/google.png')
+              ),
+            ),
           ],
         ),
       ),
